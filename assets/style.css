@@ -1,31 +1,32 @@
-@import url("https://fonts.googleapis.com/css?family=Mountains+of+Christmas&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit; }
+/*
+Error: Invalid CSS after "@import "bourbon"": expected selector or at-rule, was "@import url('ht..."
+        on line 2 of /Applications/MAMP/htdocs/Carte_De_Voeux/assets/style.scss
 
-html {
-  font-size: 62.5%; }
+1: @import "bourbon"
+2: @import url('https://fonts.googleapis.com/css?family=Mirza&amp;subset=latin-ext')
+3: 
+4: $bg-color: #928A97
+5: $front-card-color: #c72320
+6: $inside-card-color: #d4d1d0
+7: 
 
-body {
-  font-family: 'Mountains of Christmas', cursive;
-  box-sizing: border-box;
-  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.6)), url("https://cdn.dribbble.com/users/811617/screenshots/9091337/media/e3fd22e7ee99ee86a711f3380d02cdf8.png");
-  background-size: cover;
-  height: 100vh; }
-
-.div {
-  margin-left: 30%;
-  margin-top: 30rem;
-  font-size: 4rem;
-  color: #fff; }
-
-span {
-  color: red; }
-
-@media only screen and (max-width: 80rem) {
-  body {
-    background-size: 100% 200vh;
-    background-repeat: no-repeat; } }
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+/Applications/MAMP/htdocs/Carte_De_Voeux/assets/style.scss:2
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:42:in `parse'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `load'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"@import \"bourbon\"\": expected selector or at-rule, was \"@import url('ht...\"\A         on line 2 of /Applications/MAMP/htdocs/Carte_De_Voeux/assets/style.scss\A \A 1: @import \"bourbon\"\A 2: @import url('https://fonts.googleapis.com/css?family=Mirza&amp;subset=latin-ext')\A 3: \A 4: $bg-color: #928A97\A 5: $front-card-color: #c72320\A 6: $inside-card-color: #d4d1d0\A 7: "; }

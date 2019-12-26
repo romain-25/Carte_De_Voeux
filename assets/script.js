@@ -1,12 +1,13 @@
-window.addEventListener('load', ()=> {
-    const options = {
-    strings: [
-  'Joyeux Noël',
-  'Bonne année'],
-    typeSpeed: 50,
-      loop: true
-  };
-  const div = document.querySelector('.div');
-  const typed = new Typed(div, options);
-  return typed;
-  })
+$(document).ready(function() {
+
+  var $clickMe = $('.click-icon'),
+      $card = $('.card');
+  
+  $card.on('click', function() {
+
+		$(this).toggleClass('is-opened');
+    $clickMe.toggleClass('is-hidden');
+
+	});
+
+});
